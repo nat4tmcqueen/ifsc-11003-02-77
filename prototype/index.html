@@ -1,42 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="A learning resource about semantic HTML, accessibility, and standards-based web development." />
-        <meta name="author" content="Web Foundation" />
-        <title>Web Foundations: Building Meaningful Pages</title>
-    </head>
-    <body>
-        <header>
-            <h1>Web Foundations: Building Meaningful Pages</h1>
-            <nav aria-label="Main navigation">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#html-basics">HTML Basics</a></li>
-                    <li><a href="#accessibility">Accessibility</a></li>
-                    <li><a href="#resources">Resources</a></li>
-                    <li><a href="#content">Content</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <main id="home">
-            <article>
-                <header>
-                    <h2>Understanding Semantic HTML</h2>
-                </header>
-                <p>The web is more than a collection of visually formatted documents. HTML provides meaning and structure to content so that browsers, search engines, assistive technologies, and people can better understand how information is organized.</p>
-                <p>
-                    HTML stands for HyperText Markup Language. It describes the structure and meaning of content rather than how that content should look. CSS is generally responsible for presentation, while JavaScript can add behavior and interactivity.</p>
-                <section>
-                    <h2>Why Semantics Matter</h2>
-                    <p>Semantic HTML uses elements according to the meaning of the content they contain. Choosing an element because of what it represents, rather than because of its default appearance, produces documents that are easier to understand and maintain.</p>
-                    <p>Semantic structure is especially important for accessibility. Screen readers and other assistive technologies can use the structure of a document to help users navigate between major regions, headings, lists, and other types of content.</p>
-                    <p>Developers should not choose HTML elements simply because they make text bold, italic, large, or small. The meaning of the content should determine the markup. Visual appearance can be controlled separately with CSS.</p>
-                    <p>The Web Accessibility Initiative, commonly abbreviated WAI, develops standards and supporting materials that help make the web more accessible to people with disabilities.</p>
-                </section>
-            </article>
-        </main>
-    </body>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="A learning resource about semantic HTML, accessibility, and standards-based web development." />
+    <meta name="author" content="Web Foundation" />
+    <title>Web Foundations: Building Meaningful Pages</title>
+</head>
+
+<body>
+    <header>
+        <h1>Web Foundations: Building Meaningful Pages</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#html-basics">HTML Basics</a></li>
+                <li><a href="#accessibility">Accessibility</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#content">Content</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home">
+        <article>
+            <header>
+                <h2 id="html-basics">Understanding Semantic HTML</h2>
+            </header>
+            <p> The web is more than a collection of visually formatted documents. HTML provides meaning and structure
+                to content so that browsers, search engines, assistive technologies, and people can better understand
+                how information is organized. </p>
+            <p> HTML stands for HyperText Markup Language. It describes the structure and meaning of content rather than
+                how that content should look. CSS is generally responsible for presentation, while JavaScript can add
+                behavior and interactivity. </p>
+            <section id="accessibility">
+                <h2>Why Semantics Matter</h2>
+                <p> Semantic HTML uses elements according to the meaning of the content they contain. Choosing an
+                    element because of what it represents, rather than because of its default appearance, produces
+                    documents that are easier to understand and maintain. </p>
+                <p> Semantic structure is especially important for accessibility. Screen readers and other assistive
+                    technologies can use the structure of a document to help users navigate between major regions,
+                    headings, lists, and other types of content. </p>
+                <p> Developers should not choose HTML elements simply because they make text bold, italic, large, or
+                    small. The meaning of the content should determine the markup. Visual appearance can be controlled
+                    separately with CSS. </p>
+                <p> The Web Accessibility Initiative, commonly abbreviated WAI, develops standards and supporting
+                    materials that help make the web more accessible to people with disabilities. </p>
+            </section>
+            <section>
+                <h2>Common Principles for Well-Structured Pages</h2>
+                <ul>
+                    <li>Use headings to organize the document</li>
+                    <li>Organize related content into sections</li>
+                    <li>Use lists for groups of related items</li>
+                    <li>Give images useful alternative text</li>
+                    <li>Use links that clearly describe their purpose</li>
+                    <li>Keep structure separate from appearance</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Steps for Reviewing an HTML Document</h2>
+                <ol>
+                    <li>Identify the major regions of the page</li>
+                    <li>Check that the headings make sense</li>
+                    <li>Review lists and quotations</li>
+                    <li>Check that images have alt text</li>
+                    <li>Look for incorrectly used elements</li>
+                    <li>Run the page through an HTML validator</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Useful HTML Terms</h2>
+                <dl>
+                    <dt>Element</dt>
+                    <dd> A part of an HTML document, such as a heading, paragraph, link, or list. </dd>
+                    <dt>Attribute</dt>
+                    <dd> Extra information added to an HTML element. </dd>
+                    <dt>Semantic HTML</dt>
+                    <dd> Using HTML elements based on the meaning of their content. </dd>
+                    <dt>Validation</dt>
+                    <dd> Checking HTML to make sure it follows the rules of the HTML standard. </dd>
+                </dl>
+            </section>
+            <section>
+                <h2>Writing Code Clearly</h2>
+                <p> HTML documents are easier to maintain when developers use consistent formatting. For example, a
+                    developer might use <code>class="featured"</code> in an HTML element. </p>
+                <p> When writing about code, it is important to distinguish the code from the rest of the text. </p>
+            </section>
+            <section>
+                <h2>A Perspective on the Web</h2>
+                <p> <cite>Tim Berners-Lee</cite> has emphasized the importance of connecting people and information
+                    through the web. </p>
+                <blockquote>
+                    <p> “The power of the Web is in its universality. Access by everyone regardless of disability is an
+                        essential aspect.” </p>
+                </blockquote>
+                <p> This statement appears in materials from the World Wide Web Consortium, often referred to as the
+                    W3C, and reflects an important principle behind accessible web development. </p>
+            </section>
+            <section id="content">
+                <h2>Semantic Structure in Practice</h2>
+                <p> A well-structured page does not need to be complicated. A simple webpage can have a header,
+                    navigation, main content, sections, and a footer. </p>
+                <p> The difference between structure and appearance is important. A heading is not simply large text,
+                    and a quotation is not simply indented text. HTML gives these things meaning. </p>
+                <figure> <img src="assets/img/garfield.png" alt="A laying down Garfield." />
+                    <figcaption> The orange cat Garfield. </figcaption>
+                </figure>
+            </section>
+            <section id="resources">
+                <h2>Recommended Resources</h2>
+                <ul>
+                    <li> <a href="https://developer.mozilla.org/"> MDN Web Docs </a> </li>
+                    <li> <a href="https://html.spec.whatwg.org/"> HTML Living Standard </a> </li>
+                    <li> <a href="https://www.w3.org/WAI/"> Web Accessibility Initiative </a> </li>
+                    <li> <a href="https://validator.w3.org/"> W3C Markup Validation Service </a> </li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <h2>About This Site</h2>
+        <p> Web Foundations is a learning resource for students studying front-end development. The material focuses on
+            HTML, accessibility, and web standards. </p>
+        <p>Content prepared for Web Foundations.</p>
+    </footer>
+</body>
+
 </html>
